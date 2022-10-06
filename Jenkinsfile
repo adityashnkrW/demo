@@ -1,6 +1,6 @@
 {->
    node('master'){
-      stage('A'){
+      stage('C'){
          echo 'hello'
       }
    }      
