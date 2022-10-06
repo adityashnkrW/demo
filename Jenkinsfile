@@ -1,7 +1,5 @@
 {->
    node(){
-      stage('C'){
-         echo 'hello'
-      }
+      echo 'hello'
    }   
 }
