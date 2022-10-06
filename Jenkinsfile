@@ -1,8 +1,7 @@
 {->
-node(master) {
-   stage("first") {
-     def foo = "main"
-     sh "node demo.js"
+   node('master'){
+      stage('A'){
+         echo 'hello'
+      }
+   }      
    }
-}
-}
